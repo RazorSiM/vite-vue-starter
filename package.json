@@ -1,0 +1,46 @@
+{
+  "name": "vite-vue-starter",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview",
+    "lint": "eslint --ext .js,.vue src --fix",
+    "lint:style": "stylelint src/**/*.{css,vue}",
+    "prettier:check": "prettier --check .",
+    "prettier:write": "prettier --write .",
+    "stylelint-check": "stylelint-config-prettier-check",
+    "prepare": "husky install"
+  },
+  "dependencies": {
+    "@vueuse/core": "^4.6.3",
+    "@vueuse/head": "^0.5.1",
+    "vue": "^3.0.5",
+    "vue-router": "^4.0.5"
+  },
+  "devDependencies": {
+    "@tailwindcss/jit": "^0.1.18",
+    "@vitejs/plugin-vue": "^1.2.1",
+    "@vue/compiler-sfc": "^3.0.5",
+    "autoprefixer": "^10.2.5",
+    "eslint": "^7.23.0",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-vue": "^7.8.0",
+    "husky": "^6.0.0",
+    "lint-staged": "^10.5.4",
+    "postcss": "^8.2.9",
+    "prettier": "^2.2.1",
+    "stylelint": "^13.12.0",
+    "stylelint-config-prettier": "^8.0.2",
+    "stylelint-config-recommended": "^4.0.0",
+    "stylelint-config-standard": "^21.0.0",
+    "tailwindcss": "^2.0.4",
+    "vite": "^2.1.5"
+  },
+  "lint-staged": {
+    "*.{js,vue}": "eslint --cache --fix",
+    "*.{css,vue}": "stylelint --fix",
+    "*.{js,css,md,vue}": "prettier --write"
+  }
+}

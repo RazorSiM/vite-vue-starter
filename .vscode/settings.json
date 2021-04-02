@@ -1,0 +1,13 @@
+{
+  "css.validate": false,
+  "less.validate": false,
+  "scss.validate": false,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "vetur.validation.template": false,
+  "eslint.validate": ["javascript", "javascriptreact", "vue"],
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.fixAll.stylelint": true
+  }
+}

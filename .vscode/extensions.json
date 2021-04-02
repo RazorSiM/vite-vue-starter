@@ -1,0 +1,17 @@
+{
+  "recommendations": [
+    "bradlc.vscode-tailwindcss",
+    "christian-kohler.npm-intellisense",
+    "christian-kohler.path-intellisense",
+    "codezombiech.gitignore",
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "heybourn.headwind",
+    "octref.vetur",
+    "stylelint.vscode-stylelint",
+    "amatiasq.sort-imports",
+    "irongeek.vscode-env",
+    "wix.vscode-import-cost",
+    "sdras.vue-vscode-snippets"
+  ]
+}
