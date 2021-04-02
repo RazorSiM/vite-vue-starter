@@ -2,6 +2,11 @@
 
 My Vite starter template for fast prototyping
 
+## Scaffolding
+
+I've added an example on how you could use a multi layout approach for your project.
+There's also a "dark mode" toggler example using Tailwind features.
+
 ## Packages
 
 - Tailwind CSS
@@ -16,7 +21,13 @@ I tried to configure everything to work with:
 - Eslint for linting errors in JS/Vue
 - Stylelint for Css
 - Prettier for code formatting and code styling
-- Lint Staged and Husky for linting
+- Lint Staged and Husky for pre-commit linting
+
+## VSCode Integration
+
+Clone the repo and install the recommended packages. Check the ```.vscode``` folder to know more about the settings.
+By default, when saving it will run Prettier format, Eslint and Stylelint.
+
 
 Run `npm run dev` or `yarn dev` to start hacking.
 
