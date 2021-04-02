@@ -1,6 +1,11 @@
 # Vite Vue3 Starter
 
-My Vite starter template for fast prototyping
+My Vite starter template for fast prototyping.
+If you want to try it:
+
+```degit RazorSiM/vite-vue-starter``` 👽
+
+
 
 ## Scaffolding
 
