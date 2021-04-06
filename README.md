@@ -16,9 +16,15 @@ I tried to configure everything to work with:
 - Eslint for linting errors in JS/Vue
 - Stylelint for Css
 - Prettier for code formatting and code styling
-- Lint Staged and Husky for linting
+- Lint Staged and Husky for pre-commit hooks.
 
+## How to run it
+
+First of all, install the dependencies:
+`npm install` or `yarn`
 Run `npm run dev` or `yarn dev` to start hacking.
+
+In your `./package.json` Script section there are some useful commands configured, so check it out.
 
 TODO:
 
