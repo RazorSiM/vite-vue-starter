@@ -19,7 +19,6 @@
 </template>
 
 <script>
-  import { ref } from "vue";
   import { useDark, useToggle } from "@vueuse/core";
   export default {
     component: {
