@@ -1,4 +1,5 @@
 import "/@/assets/styles.css";
+import "virtual:windi.css";
 
 import App from "/@/App.vue";
 import BaseLayout from "./layouts/Base.vue";
