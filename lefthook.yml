@@ -1,0 +1,16 @@
+# EXAMPLE USAGE
+# Refer for explanation to following link:
+# https://github.com/evilmartians/lefthook/blob/master/docs/full_guide.md
+
+pre-commit:
+  parallel: true
+  commands:
+    lint:
+      glob: "*.{js,vue}"
+      run: yarn lint {staged_files}
+    lint-style:
+      glob: "*.{vue,css}"
+      run: yarn lint:style {staged_files}
+    format:
+      glob: "*.{js,vue,css,json}"
+      run: yarn prettier:write {staged_files}
