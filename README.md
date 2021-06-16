@@ -17,6 +17,7 @@ There's also a _dark mode_ toggler example using Tailwind features.
 - **Windi CSS**: it's awesome and super configurable. It does not require you to add postcss in your pipeline
 - **Vue Router** because eventually you'll need it
 - **Vueuse** because it's super usefull
+- **Pinia** as a store manager because it's lightway, Typescript friendly and composable. Works best with `setup()`
 
 ## Code Style and Linters
 
@@ -45,4 +46,4 @@ In your `./package.json` Script section there are some useful commands configure
 TODO:
 
 - [x] Add Stylelint
-- [ ] Add Vuex or Pinia as store manager
+- [ ] Add ~~Vuex~~ Pinia as store manager
