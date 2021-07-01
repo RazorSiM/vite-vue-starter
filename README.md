@@ -38,12 +38,12 @@ NOTE: `WindiCSS IntelliSense` will not work if you have the `Auto Close Tag` ext
 ## How to run it
 
 First of all, install the dependencies:
-`npm install` or `yarn`
-Run `npm run dev` or `yarn dev` to start hacking.
+`pnpm i` or `yarn`
+Run `pnpm run dev` or `yarn dev` to start hacking.
 
 In your `./package.json` Script section there are some useful commands configured, so check it out.
 
 TODO:
 
 - [x] Add Stylelint
-- [ ] Add ~~Vuex~~ Pinia as store manager
+- [x] Add ~~Vuex~~ Pinia as store manager
