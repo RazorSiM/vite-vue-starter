@@ -43,25 +43,15 @@
     </button>
   </div>
 </template>
-<script lang="ts">
+<script setup>
   import { computed } from "vue";
   import { useGlobalStore } from "../stores/global";
 
-  export default {
-    setup() {
-      const globalStore = useGlobalStore();
-      const increment = () => globalStore.incrementCounter();
-      const decrease = () => globalStore.decreaseCounter();
-      const counter = computed(() => globalStore.counter);
-      const counterColor = computed(() =>
-        counter.value > 0 ? `text-indigo-400` : `text-pink-300`
-      );
-      return {
-        increment,
-        decrease,
-        counter,
-        counterColor,
-      };
-    },
-  };
+  const globalStore = useGlobalStore();
+  const increment = () => globalStore.incrementCounter();
+  const decrease = () => globalStore.decreaseCounter();
+  const counter = computed(() => globalStore.counter);
+  const counterColor = computed(() =>
+    counter.value > 0 ? `text-indigo-400` : `text-pink-300`
+  );
 </script>

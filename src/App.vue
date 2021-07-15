@@ -4,17 +4,12 @@
   </component>
 </template>
 
-<script>
+<script setup>
   import { computed } from "vue";
   import { useRoute } from "vue-router";
-  export default {
-    setup() {
-      const route = useRoute();
-      const layout = computed(() => {
-        return route.meta.layout;
-      });
 
-      return { layout };
-    },
-  };
+  const route = useRoute();
+  const layout = computed(() => {
+    return route.meta.layout;
+  });
 </script>
