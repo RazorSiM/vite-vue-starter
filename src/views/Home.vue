@@ -44,14 +44,13 @@
   </div>
 </template>
 <script setup>
-  import { computed } from "vue";
   import { useGlobalStore } from "../stores/global";
 
   const globalStore = useGlobalStore();
   const increment = () => globalStore.incrementCounter();
   const decrease = () => globalStore.decreaseCounter();
-  const counter = computed(() => globalStore.counter);
-  const counterColor = computed(() =>
-    counter.value > 0 ? `text-indigo-400` : `text-pink-300`
+  let counter = $computed(() => globalStore.counter);
+  let counterColor = $computed(() =>
+    counter > 0 ? `text-indigo-400` : `text-pink-300`
   );
 </script>

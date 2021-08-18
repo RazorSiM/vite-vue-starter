@@ -30,7 +30,7 @@
           dark:hover:(bg-indigo-900
           text-indigo-200)
         "
-        @click="toggleDark"
+        @click="toggleDark()"
       >
         <svg
           v-if="!isDark"
@@ -70,18 +70,17 @@
     </div>
   </div>
 </template>
-
 <script>
   import { defineComponent } from "vue";
-  import { useDark, useToggle } from "@vueuse/core";
   export default defineComponent({
     component: {
       name: "BaseLayout",
     },
-    setup() {
-      const isDark = useDark();
-      const toggleDark = useToggle(isDark);
-      return { toggleDark, isDark };
-    },
   });
+</script>
+<script setup>
+  import { useDark, useToggle } from "@vueuse/core";
+
+  const isDark = useDark();
+  const toggleDark = useToggle(isDark);
 </script>

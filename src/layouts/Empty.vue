@@ -7,8 +7,5 @@
     component: {
       name: "EmptyLayout",
     },
-    setup() {
-      return {};
-    },
   };
 </script>
