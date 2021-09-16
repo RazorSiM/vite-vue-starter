@@ -1,3 +1,5 @@
+# Vue 3 is ready to rock Typescript - I do not need a JS Fallback anymore
+
 # Vite Vue3 Starter
 
 My Vite starter template for fast prototyping.
